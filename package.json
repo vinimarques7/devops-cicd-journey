@@ -6,6 +6,7 @@
   "author": "vinimarques7 <vini.marques_07@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "cypress": "^15.12.0",
     "typescript": "^5.9.3"
   }
 }
