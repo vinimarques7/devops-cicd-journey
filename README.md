@@ -84,7 +84,7 @@ Cada curso leva entre 20 e 40 minutos e você aprende diretamente em um reposit�
 
 ---
 
-### Passo 2: Criando o Repositório
+### Passo 1: Criando o Repositório
 
 Crie um repositório no GitHub com o nome de sua escolha. Em seguida, clone e abra no VSCode:
 
@@ -98,7 +98,7 @@ code .
 
 ---
 
-### Passo 3: Entendendo o YAML antes de escrever
+### Passo 2: Entendendo o YAML antes de escrever
 
 Antes de criar qualquer workflow, é fundamental entender a linguagem de configuração que o GitHub Actions usa.
 
@@ -148,7 +148,7 @@ jobs:
 
 ---
 
-### Passo 4: Fase 1 — Pipeline Python com pytest
+### Passo 3: Fase 1 — Pipeline Python com pytest
 
 O primeiro pipeline. Começa com Python porque a lógica é simples, permitindo focar 100% na estrutura do workflow.
 
@@ -225,7 +225,7 @@ Acesse a aba **Actions** no GitHub e veja o workflow executar automaticamente.
 
 ---
 
-### Passo 5: Fase 2 — Migrando para TypeScript
+### Passo 4: Fase 2 — Migrando para TypeScript
 
 Mesma lógica do pipeline anterior, linguagem diferente. Isso demonstra que o GitHub Actions é **agnóstico de linguagem** — a estrutura do workflow é sempre a mesma.
 
@@ -311,7 +311,7 @@ git push origin main
 
 ---
 
-### Passo 6: Fase 3 — Testes E2E com Cypress
+### Passo 5: Fase 3 — Testes E2E com Cypress
 
 Cypress é um framework de testes end-to-end — ele substitui os testes manuais escritos anteriormente por uma solução profissional e padronizada, usada em empresas do mundo todo.
 
@@ -416,7 +416,7 @@ git push origin main
 
 ---
 
-### Passo 7: A Aplicação — monitor.ts
+### Passo 6: A Aplicação — monitor.ts
 
 Antes de containerizar, criamos a aplicação que será empacotada no Docker. Um script TypeScript que verifica se URLs estão online ou offline — uso real no dia a dia de DevOps.
 
@@ -470,7 +470,7 @@ npx ts-node monitor.ts
 
 ---
 
-### Passo 8: Fase 4 — Docker e Containerização
+### Passo 7: Fase 4 — Docker e Containerização
 
 Docker empacota a aplicação junto com tudo que ela precisa para rodar — SO, dependências e configurações — dentro de um container. O comportamento é sempre o mesmo em qualquer ambiente.
 
@@ -574,7 +574,7 @@ jobs:
 
 ---
 
-### Passo 9: Secrets — Credenciais Seguras no CI
+### Passo 8: Secrets — Credenciais Seguras no CI
 
 Secrets são variáveis sensíveis armazenadas de forma criptografada no repositório. Elas nunca aparecem no código — o GitHub Actions as injeta automaticamente no pipeline na hora da execução.
 
@@ -605,7 +605,7 @@ password: ${{ secrets.GHCR_TOKEN }}
 
 ---
 
-### Passo 10: GHCR — Publicando a Imagem
+### Passo 9: GHCR — Publicando a Imagem
 
 O GHCR (GitHub Container Registry) é o "almoxarifado" de imagens Docker integrado ao GitHub. Após configurar os secrets, o pipeline do Passo 8 já está pronto para publicar automaticamente.
 
@@ -623,7 +623,7 @@ Após o push, acesse seu perfil no GitHub → **Packages** para ver a imagem pub
 
 ---
 
-### Passo 11: Versionamento com SemVer
+### Passo 10: Versionamento com SemVer
 
 O `latest` é conveniente mas perigoso em produção — ele sempre muda. Com tags versionadas, você tem controle total sobre qual versão está rodando em cada ambiente.
 
@@ -649,7 +649,7 @@ git push origin v1.0.0
 
 ---
 
-### Passo 12: Deploy no Railway
+### Passo 11: Deploy no Railway
 
 Deploy é o processo de pegar a imagem publicada no GHCR e colocá-la para rodar em um servidor na nuvem.
 
