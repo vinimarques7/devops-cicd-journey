@@ -1,7 +1,7 @@
 # 🚀 DevOps Journey: Full Cycle CI/CD com IA Mentoring
 
 > **Autor:** Vinícius Marques  
-> **Repositório:** `tests-actions-cypress`  
+> **Repositório:** `devops-cicd-journey`  
 > **Objetivo:** Registro técnico e evolutivo de uma jornada do zero ao CI/CD completo, utilizando IA como mentor de aprendizado.
 
 ---
