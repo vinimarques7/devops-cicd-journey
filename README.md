@@ -6,6 +6,10 @@
 
 ---
 
+> 📄 [Portuguese version available here](./README.md)
+
+---
+
 ## 📖 About this repository
 
 This repository is not just a technical project — it is a **journey documented in code**. Every file, pipeline, and configuration represents a concept learned and applied in practice, starting from absolute zero in automation and evolving into a monitored, containerized application with automated deployment.
