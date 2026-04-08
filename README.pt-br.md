@@ -744,26 +744,6 @@ sudo apt-get install -y libnspr4 libnss3 libatk1.0-0 libatk-bridge2.0-0 \
 
 ---
 
-## 🎤 Roteiro de Demonstração
-
-Para quem quiser apresentar este projeto, aqui está um roteiro de 4 minutos:
-
-**Minuto 1 — A Base**
-> "Comecei estabelecendo um ambiente Linux dentro do Windows com WSL 2. Isso elimina o problema clássico de 'funciona na minha máquina' — meu ambiente de desenvolvimento é idêntico ao servidor de produção."
-
-**Minuto 2 — A Jornada pelos Pipelines**
-> "Criei quatro pipelines progressivos: Python com pytest, TypeScript com ts-node, Cypress para testes E2E, e Docker para containerização. Isso prova que a lógica de CI/CD é agnóstica de linguagem — a estrutura do workflow é sempre a mesma."
-
-**Minuto 3 — A Aplicação e o Container**
-> Rode `docker run monitor-app` ao vivo.
-> "O `monitor-app` verifica se URLs estão online ou offline. Ele roda dentro de um container Docker — se o servidor tiver Docker instalado, ele não precisa de Node ou Yarn. O container transporta tudo."
-
-**Minuto 4 — O Ciclo Completo**
-> Mostre a aba Actions no GitHub e o Package publicado no GHCR.
-> "O ciclo completo: push na main → testes rodam automaticamente → imagem é buildada e publicada no GHCR → Railway faz o deploy. Saímos de um script simples para uma infraestrutura automatizada de ponta a ponta."
-
----
-
 ## 📖 Referências
 
 - [GitHub Actions Documentation](https://docs.github.com/pt/actions)
