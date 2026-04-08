@@ -590,7 +590,7 @@ Secrets são variáveis sensíveis armazenadas de forma criptografada no reposit
 Sem secrets, você precisaria colocar seu token diretamente no YAML — qualquer pessoa com acesso ao repositório poderia ver suas credenciais. Com secrets, o valor é criptografado e nunca exposto.
 
 **Como criar um Personal Access Token (PAT) no GitHub:**
-1. Acesse **github.com/settings/tokens**
+1. Acesse **github.com/settings/developer settings/tokens**
 2. Clique em **Generate new token (classic)**
 3. Preencha:
    - **Note:** `ghcr-token`
