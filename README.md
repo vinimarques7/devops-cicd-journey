@@ -14,7 +14,7 @@
 
 This repository is not just a technical project — it is a **journey documented in code**. Every file, pipeline, and configuration represents a concept learned and applied in practice, starting from absolute zero in automation and evolving into a monitored, containerized application with automated deployment.
 
-The project was born from a challenge proposed by the tech lead: **migrate legacy test pipelines from Python to TypeScript and then replace them with Cypress**. From there, the repository naturally evolved to cover the complete CI/CD cycle.
+The project was born from a challenge proposed by my leader: **migrate legacy test pipelines from Python to TypeScript and then replace them with Cypress**. From there, the repository naturally evolved to cover the complete CI/CD cycle.
 
 ### 🧠 Methodology: AI Mentoring
 
@@ -86,9 +86,11 @@ Each course takes between 20 and 40 minutes and you learn directly in a real rep
 
 ## Let's get started!!
 
-### Step 1: Creating the Repository
+### Step 1: Setting up the Repository
 
-Create a repository on GitHub with a name of your choice. Then clone and open it in VSCode:
+To follow this tutorial, you can either create a new repository from scratch or fork this project's base repository. To fork it, click the "Fork" button at the top right of the original repository page.
+
+Once your repository is ready (new or forked), clone it and open it in VSCode:
 
 ```bash
 git clone https://github.com/YOUR_USER/REPOSITORY_NAME
@@ -96,7 +98,7 @@ cd REPOSITORY_NAME
 code .
 ```
 
-> The `code .` command opens VSCode connected to WSL automatically.
+> Note: If you are using WSL, the `code .` command will automatically open VSCode connected to your Linux distribution.
 
 ---
 
