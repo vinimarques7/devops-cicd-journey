@@ -22,7 +22,7 @@ jobs:
                 node-version: '20'
 
             - name: Install dependenies
-              run: yarn install
+              run: cd example/typescript && yarn install
 
             - name: Run Cypress tests
-              run: yarn cypress run
+              run: cd example/typescript && yarn cypress run

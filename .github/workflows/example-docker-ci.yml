@@ -35,7 +35,7 @@ jobs:
             - name: Build and push
               uses: docker/build-push-action@v5
               with:
-                context: .
+                context: example/typescript
                 push: true
                 tags: ghcr.io/${{ secrets.GHCR_USERNAME }}/monitor-app:latest
                 labels: ${{ steps.meta.outputs.labels }}
