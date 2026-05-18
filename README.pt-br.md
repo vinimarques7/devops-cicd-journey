@@ -22,10 +22,10 @@ Este projeto foi guiado pela técnica de **IA Mentoring**. Utilizei o [Claude.AI
 
 A diferença desta abordagem para simplesmente pedir código à IA está em quatro pilares:
 
-1. **Decomposição antes da execução** — Antes de codificar, eu descrevia a lógica esperada para a IA. O objetivo era validar o raciocínio arquitetural antes de avançar para a implementação sintática.
-2. **Assimilação de Padrões** — Foco no entendimento de padrões de algoritmos e ferramentas (design patterns e workflows). O estudo foi binário: teoria para compreender o "porquê" e prática para dominar o "como".
-3. **Inversão de Fluxo (Explicação do Estudante)** — Ao receber um código ou conceito, eu obrigatoriamente devolvia uma explicação com minhas próprias palavras. A IA atuava como mentora, corrigindo desvios conceituais e confirmando meus acertos antes de eu transcrever o código para o VS Code.
-4. **Previsibilidade e Validação Contínua** — A cada git push, eu detinha o controle total sobre o comportamento do pipeline. Não havia "magia" no CI/CD; havia o entendimento claro de cada trigger, job e step configurado. Sempre verificando o Actions para verificar o retorno do pipeline.
+1. **Inversão de Fluxo (Explicação do Estudante)** — Antes de receber qualquer resposta, explique o que você já entende sobre o tema com suas próprias palavras. A IA atua como mentora — corrigindo desvios conceituais e confirmando acertos. Quando isso não for possível por completo desconhecimento, a explicação deve acontecer imediatamente após receber o conceito, antes de avançar. Se você não consegue explicar, ainda não entendeu.
+2. **Decomposição antes da execução** — Antes de qualquer ação prática, descreva a lógica esperada. O objetivo é validar o raciocínio antes de avançar para a implementação — seja um código, uma decisão de design ou uma estratégia. Pensar antes de executar elimina retrabalho e consolida o aprendizado.
+3. **Assimilação de Padrões** — O foco não está na sintaxe ou nos detalhes específicos de uma ferramenta, mas no padrão por trás dela. Teoria para entender o porquê, prática para dominar o como — e o padrão se transfere para qualquer contexto, linguagem ou área.
+4. **Previsibilidade e Validação Contínua** — A cada avanço, você deve ser capaz de prever o resultado antes de executar. Se não consegue prever, ainda não entendeu. A validação com documentações oficiais e pessoas experientes é obrigatória — não opcional. A IA pode estar errada, desatualizada ou simplificar demais. Documentação e experiência humana são a camada final de verificação do aprendizado.
 
 > **A filosofia deste repositório é simples: aprender fazendo. Cada erro resolvido, cada pipeline passando no GitHub Actions e cada conceito entendido está registrado na história de commits.**
 
