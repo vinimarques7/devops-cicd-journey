@@ -22,10 +22,10 @@ This project was guided by the **AI Mentoring** technique. I used [Claude.AI](ht
 
 The difference between this approach and simply asking an AI for code lies in four pillars:
 
-1. **Decomposition before execution** — Before writing any code, I described the expected logic to the AI. The goal was to validate architectural reasoning before moving on to syntactic implementation.
-2. **Pattern Assimilation** — Focus on understanding patterns of algorithms and tools (design patterns and workflows). The study was binary: theory to understand the "why" and practice to master the "how".
-3. **Flow Inversion (Student Explanation)** — Upon receiving code or a concept, I would always return an explanation in my own words. The AI acted as a mentor, correcting conceptual deviations and confirming my understanding before I transcribed the code into VS Code.
-4. **Predictability and Continuous Validation** — At every `git push`, I had full control over the pipeline's behavior. There was no "magic" in CI/CD — just a clear understanding of each configured trigger, job, and step. Always checking the Actions tab to verify the pipeline result.
+1. **Flow Inversion (Student Explanation)** — Before receiving any answer, explain what you already understand about the topic in your own words. The AI acts as a mentor — correcting conceptual deviations and confirming what is right. When that is not possible due to complete unfamiliarity, the explanation must happen immediately after receiving the concept, before moving forward. If you cannot explain it, you have not understood it yet.
+2. **Decomposition Before Execution** — Before any practical action, describe the expected logic. The goal is to validate your reasoning before moving on to implementation — whether it is code, a design decision, or a strategy. Thinking before executing eliminates rework and consolidates learning.
+3. **Pattern Assimilation** — The focus is not on syntax or the specific details of a tool, but on the pattern behind it. Theory to understand the why, practice to master the how — and the pattern transfers to any context, language, or field.
+4. **Predictability and Continuous Validation** — At every step forward, you must be able to predict the result before executing. If you cannot predict it, you have not understood it yet. Validation through official documentation and experienced people is mandatory — not optional. AI can be wrong, outdated, or oversimplify. Documentation and human experience are the final verification layer of learning.
 
 > **The philosophy of this repository is simple: learn by doing. Every resolved error, every pipeline passing on GitHub Actions, and every concept understood is recorded in the commit history.**
 
